@@ -33,6 +33,7 @@ public class FlowerManagement {
             {
                
                 boolean prevEmpty = (i == 0) || (i > 0 && arr[i - 1] == 0);
+                
                 boolean nextEmpty = (i == n - 1) || (i < n - 1 && arr[i + 1] == 0);
                 
                 if (prevEmpty && nextEmpty) 
