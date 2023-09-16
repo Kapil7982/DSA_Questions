@@ -9,9 +9,9 @@ public class TwoSortedArrays {
 		
 		int[] arr1 = {4, 4, 3, 2, 1, 1};
 		
-		var l=0; 
-	    var r=arr1.length-1;
-	    var count=0;
+		int l=0; 
+		int r=arr1.length-1;
+		int count=0;
 	    while(l<arr.length && r>=0)
 	    {
 	        if(arr[l]==arr1[r])
