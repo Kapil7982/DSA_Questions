@@ -1,0 +1,17 @@
+public class LastDigitChecker {
+
+   public static void main(String[] args) {
+       int number = 123; 
+       theLastDigit(number);
+   }
+
+   public static void theLastDigit(int number) {
+       int lastDigit = number % 10;
+
+       if (lastDigit % 3 == 0) {
+           System.out.println("Divisible");
+       } else {
+           System.out.println("Not Divisible");
+       }
+   }
+}
