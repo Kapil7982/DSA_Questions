@@ -9,6 +9,7 @@ public class NextPermutation {
 
 		int[] arr = {1, 2, 3};
         nextPermutation(arr);
+        
         System.out.println(Arrays.toString(arr));
 	}
 
