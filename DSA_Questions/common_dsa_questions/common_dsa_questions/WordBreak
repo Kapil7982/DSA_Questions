@@ -1,6 +1,6 @@
 class WordBreak{
 public static void main(String[] args)
 {
-
+   String word;
 }
 }
