@@ -47,7 +47,7 @@ public class DecodeString {
                 currentString = strStack.pop().append(temp);
             } 
             else 
-            {
+            																					{
                 currentString.append(c);
             }
         }
